@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "torchwood": "./bin/index.bin.js"
-  },
-  "scripts": {
-    "help": "./bin/help.bin.js",
-    "init": "./bin/init.bin.js"
+    "torchwood": "./bin/index.bin.js",
+    "torchwood--init": "./bin/init.bin.js"
   },
   "author": "Altiske <bastiaan.dewaele@outlook.com>",
   "repository": {
