@@ -9,7 +9,7 @@ const clc = require("cli-color");
 
 const { exec } = require('child_process');
 
-const torchwoodPath = process.cwd()+"/node_modules/torchwood.io/index.boot.js";
+const torchwoodPath = process.cwd()+"/node_modules/torchwood.io/index.js";
 
 if (fs.existsSync(torchwoodPath)) {
   require(torchwoodPath);
